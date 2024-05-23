@@ -6,6 +6,7 @@
 }
 .nav-logo{
     display: flex;
+    border-image-width: 14px; 
     align-items: center;
     gap: 10px;
 
