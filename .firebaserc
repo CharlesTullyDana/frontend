@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "phlypped-llc",
+    "phlypped-llc": "phlypped-llc"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

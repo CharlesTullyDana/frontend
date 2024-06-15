@@ -8,6 +8,9 @@ import LoginSignup from './Pages/LoginSignup'; // Adjust the path as necessary
 import Footer from './Components/Footer/Footer';
 import banner_homePage from './Components/Assets/banner_homePage.png'; // Adjust the import path
 import Product from './Pages/Product';
+// import men_banner from './Components/Assets/banner_mens.png'
+// import woman_banner from './Components/Assets/banner_women.png'
+// import kids_banner from './Components/Assets/banner_kids.png'
 const App = () => {
   return (
     <div>
@@ -16,8 +19,8 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Shop />} />
           <Route path='/jewelry' element={<ShopCategory category="jewelry" banner_homePage={banner_homePage} />} />
-          <Route path='/guitars' element={<ShopCategory category="guitars" banner_homePage={banner_homePage} />} />
-          <Route path='/equipment' element={<ShopCategory category="equipment" banner_homePage={banner_homePage} />} />
+          <Route path='/guitars' element={<ShopCategory   category="guitars" banner_homePage={banner_homePage} />} />
+          <Route path='/equipment' element={<ShopCategory  category="equipment" banner_homePage={banner_homePage} />} />
           <Route path=":/product" element={<Product/>}>
             <Route path=':productId' element={<Product/>}/>
           </Route>
@@ -32,3 +35,4 @@ const App = () => {
 }
 
 export default App;
+ 

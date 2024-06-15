@@ -38,7 +38,8 @@
     border: none;
     outline: none;
     color: #616161;
-    font-family: 16px;
+    font-family: Poppins;
+    font-size: 16px;
 }
 .newsletteer div button{
     width: 210px;
